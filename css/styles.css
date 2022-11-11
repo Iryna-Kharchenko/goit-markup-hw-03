@@ -196,7 +196,7 @@ img {
 
 .features,
 .team,
-.filter {
+.projects {
   padding: 94px 0;
 }
 
@@ -216,7 +216,6 @@ img {
 }
 
 .feature-title,
-.filter-title,
 .projects-title {
   position: absolute;
   white-space: nowrap;
@@ -313,6 +312,10 @@ img {
   display: block;
 }
 
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-logo {
   display: flex;
   margin-bottom: 20px;
@@ -330,14 +333,12 @@ img {
 
 .footer-place {
   display: inline-block;
-  margin-bottom: 9px;
 
   color: var(--accent-text-color-second);
 }
 
 .footer-mail {
   display: inline-block;
-  margin-bottom: 9px;
 }
 
 .footer-mail,
@@ -345,7 +346,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* --------------FILTER-------------------- */
+/* --------------PORTFOLIO-------------------- */
 
 .filter-list {
   display: flex;
@@ -384,12 +385,14 @@ img {
 
 .projects-item {
   width: calc((100% - 60px) / 3);
-  border: 1px solid #eeeeee;
 }
 
 .projects-wrap {
   padding: 20px 24px;
   background-color: var(--accent-text-color-second);
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .projects-subtitle {
